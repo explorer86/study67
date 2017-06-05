@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\android-app\MyApplication\slidingMenulibrary\assets"/><source path="D:\android-app\MyApplication\slidingMenulibrary\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\android-app\MyApplication\slidingMenulibrary\src\release\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\android-app\study67\slidingMenulibrary\assets"/><source path="D:\android-app\study67\slidingMenulibrary\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\android-app\study67\slidingMenulibrary\src\release\assets"/></dataSet></merger>
