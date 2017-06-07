@@ -3,12 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-<android.support.v4.view.ViewPager
+<com.linh.zhpt.view.NoScrollViewPager
     android:id="@+id/vp_content"
     android:layout_width="match_parent"
     android:layout_height="0dp"
     android:layout_weight="1"/>
     <RadioGroup
+        android:id="@+id/rg_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@mipmap/bottom_tab_bg"
@@ -17,26 +18,32 @@
         >
 
         <RadioButton
+            android:id="@+id/rb_home"
             style="@style/Bottom_Tab_Style"
             android:drawableTop="@drawable/tab_home_selector"
             android:text="首页"
+            android:checked="true"
             />
         <RadioButton
+            android:id="@+id/rb_news"
             style="@style/Bottom_Tab_Style"
             android:drawableTop="@drawable/tab_news_selector"
             android:text="新闻"
             />
         <RadioButton
+            android:id="@+id/rb_smart"
             style="@style/Bottom_Tab_Style"
             android:drawableTop="@drawable/tab_smart_selector"
             android:text="智慧服务"
             />
         <RadioButton
+            android:id="@+id/rb_gov"
             style="@style/Bottom_Tab_Style"
             android:drawableTop="@drawable/tab_gov_selector"
             android:text="政务"
             />
         <RadioButton
+            android:id="@+id/rb_setting"
             style="@style/Bottom_Tab_Style"
             android:drawableTop="@drawable/tab_setting_selector"
             android:text="设置"
